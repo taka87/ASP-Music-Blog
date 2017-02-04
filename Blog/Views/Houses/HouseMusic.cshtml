@@ -1,0 +1,52 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    ViewBag.Title = "House Music";
+}
+
+@model List<Blog.Models.House>
+<link href="~/Content/HouseMusic.css" rel="stylesheet" />
+
+
+<div class="wrapper">
+    <br />
+    <br />
+    <br />
+    <br />
+    <font size="10">Can you feel house music?</font>
+    </center>
+</div>
+
+<div class="wrapper">
+    <center>
+        <br />
+        <br />
+        <br />
+        <a href="@Url.Action("HouseMusicHistory", "Houses")">
+            <div class="House" style="background-image: url('../../Content/HouseMusic/BackgroundPicture/maxresdefault.jpg');
+                 background-size: contain;
+                 background-repeat: repeat">
+                <div class="type">
+                    Log into House Music
+                </div>
+            </div>
+        </a>
+
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <audio controls="controls" loop autoplay="true">
+            <br />
+            <br />
+            <br/>
+            <source src="~/Content/HouseMusic/HouseMusic/schiller%20-%20i%20feel%20you.mp3" type="audio/mpeg" />
+            <br />
+        </audio>
+        <p><br />Schiller - I feel you</p>
+    </center>
+
+</div>
+

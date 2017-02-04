@@ -1,0 +1,80 @@
+﻿body {
+    background-image: url('img/rock-page-background.jpg');
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(115, 230, 0);
+    margin: 10px;
+    padding: 20px;
+}
+
+.about {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 17px;
+    text-align: left;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: rgb(230, 230, 0);
+}
+
+.bands {
+    text-align: center;
+}
+
+    .bands ul {
+        margin: 30px;
+    }
+
+
+    .bands li {
+        display: inline-table;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .bands h4 {
+        color: rgb(230, 230, 0);
+    }
+
+    .bands a {
+        text-decoration: none;
+        color: rgb(230, 230, 0);
+    }
+
+.music {
+    text-align: center;
+    margin: 20px;
+}
+
+footer {
+    color: rgb(115, 230, 0);
+    text-align: center;
+    font-size: 17px;
+}
+
+.miniMenu li {
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(242, 242, 242);
+    border: solid grey;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+    .miniMenu li a {
+        text-decoration: none;
+        color: black;
+    }
+
+ul li a {
+    font-family: Copperplate,Copperplate Gothic Light, sans-serif;
+}

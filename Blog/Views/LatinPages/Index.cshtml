@@ -1,0 +1,72 @@
+﻿@using Blog.Classes
+@model IEnumerable<Blog.Models.LatinPage>
+
+@{
+    ViewBag.Title = "Latin";
+}
+<link href="~/Content/latin-styles.css" rel="stylesheet" />
+
+<h2 style="text-align:center" class="title">Latin Music</h2>
+
+<body class="wrapper">
+
+    <div class="description-block">
+        Latin music has roots in Southern Europe, Africa, and the indigenous cultures of Latin America,
+        so it's a pretty cool synthesis of world music. It is motivated by emotion and passion,
+        rhythm and movement, so get up on your feet because you can't take Latin music sitting down.
+        As they say in Latin America, ¡Baila!
+    </div>
+   
+    <a href="@Url.Action("Discussion", "LatinPages")">
+        <div class="menu-block" style="margin-right: 90px">
+            <form>
+                <div style="color: indianred"><strong>Discussion Corner</strong></div>
+            </form>
+        </div>
+    </a>
+
+    <a href="@Url.Action("Singers", "LatinPages")">
+        <div class="menu-block">
+            <form>
+                <div style="color: indianred"><strong>Popular Singers</strong></div>
+            </form>
+        </div>
+    </a>
+
+    <h2 style="text-align: center; color: #e0e0e0; font-size: 30px">
+    Latest Posts
+    </h2>
+
+    <p style="margin-left: 15px">
+        @Html.ActionLink("Create New", "Create")
+    </p>
+
+    <div>
+        @foreach (var discussion in Model)
+        {
+            <div class="post-block col-md-6">
+                <h2 style="font-size: 25px">@discussion.Title</h2>
+                <div>
+                    Posted on <i>@discussion.Date</i>
+                    @if (discussion.Author != null)
+                    {
+                        @:by <i>@discussion.Author.FullName (@discussion.Author.UserName)</i>
+                    }
+                    <p>@Utils.CutText(discussion.Body)</p>
+                </div>
+            </div>
+        }
+    </div>
+
+    <br />
+
+<div class="music">
+    <center>
+        <audio controls="controls" autoplay="true" loop="true">
+            <source src="~/Content/LatinMusic/marc%20anthony%20-%20vivir%20mi%20vida.mp3" type="audio/mpeg" />
+        </audio>
+        <p style="color: #e0e0e0">Marc Anthony - Vivir Mi Vida</p>
+    </center>
+</div>
+
+</body>

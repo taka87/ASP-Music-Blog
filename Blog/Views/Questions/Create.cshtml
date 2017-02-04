@@ -1,0 +1,89 @@
+﻿@model Blog.Models.Question
+
+@{
+    ViewBag.Title = "Ask";
+}
+
+<h2>Ask Question</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <style>
+        body {
+            background-image: url('../../Content/img/create-background.jpg');
+            background-size: 100% 200%;
+            background-repeat: no-repeat;
+        }
+
+        .miniMenu li {
+            display: inline-block;
+            text-decoration: none;
+            background-color: rgb(242, 242, 242);
+            border: solid grey;
+            font-size: 14px;
+            padding: 5px;
+            border-radius: 5px;
+            margin: 2px;
+        }
+
+            .miniMenu li a {
+                text-decoration: none;
+                color: black;
+            }
+
+        ul li a {
+            font-family: Copperplate,Copperplate Gothic Light, sans-serif;
+        }
+    </style>
+
+    <div class="form-horizontal">
+
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Title, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Body, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Body, new { htmlAttributes = new { @class = "form-control", @rows = "10" } })
+                @Html.ValidationMessageFor(model => model.Body, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Category, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Category, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Category, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Ask" class="btn btn-default" />
+            </div>
+        </div>
+
+    </div>
+}
+
+<ul class="miniMenu">
+    <li>@Html.ActionLink("Questions", "Index")</li>
+    <li>@Html.ActionLink("Rock Music", "Rock")</li>
+    <li>@Html.ActionLink("Heavy Metal Music", "Metal")</li>
+
+</ul>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

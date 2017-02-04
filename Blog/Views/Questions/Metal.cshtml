@@ -1,0 +1,175 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using System.Data
+@using System.Data.Entity
+@using System.Runtime
+@using Blog.Classes
+@using Blog.Models
+@using Microsoft.Ajax.Utilities
+@model List<Blog.Models.Question>
+<link href="~/Content/Metal.css" rel="stylesheet" />
+<div class="wrapper">
+    <ul class="miniMenu">
+        <li>
+            @Html.ActionLink("Rock Music", "Rock")
+        </li>
+
+        <li>
+            @Html.ActionLink("Ask Question", "Create")
+        </li>
+
+        <li>
+            @Html.ActionLink("Questions", "Index")
+        </li>
+
+    </ul>
+
+    <div class="about">
+
+        <h1>History of Heavy Metal Music</h1>
+
+        <p>
+            Heavy metal (or simply metal) is a genre of rock music that developed in the late 1960s and early 1970s,
+            largely in the United Kingdom and the United States.With roots in blues rock and psychedelic rock,
+            the bands that created heavy metal developed a thick, massive sound, characterized by highly amplified distortion,
+            extended guitar solos, emphatic beats, and overall loudness.
+            Heavy metal lyrics and performance styles are sometimes associated with masculinity, aggression, and machismo.
+
+            The first heavy metal bands such as Led Zeppelin,
+            Black Sabbath and Deep Purple attracted large audiences,
+            though they were often derided by critics, a status common throughout the history of the genre.
+            During the mid-1970s, Judas Priest helped spur the genre's evolution by discarding much of its blues influence;
+            Motörhead introduced a punk rock sensibility and an increasing emphasis on speed. Beginning in the late 1970s,
+            bands in the new wave of British heavy metal such as Iron Maiden and Saxon followed in a similar vein.
+            Before the end of the decade, heavy metal fans became known as "metalheads" or "headbangers".
+        </p>
+    </div>
+
+    <div class="bands">
+        <h4>Polpular bands and artists by decades and their wiki's</h4>
+        <ul>
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Judas_Priest">
+                    <div>1960s Judas Priest</div>
+                    <div>
+                        <img src="~/Content/img/Metal images/Judas-Priest-Logo-Black-800x462.jpg" style="width: 150px; height: 80px" />
+                    </div>
+                </a>
+
+
+            </li>
+
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Iron_Maiden">
+                    <div>1970s Iron Maiden</div>
+                    <div>
+                        <img src="~/Content/img/Metal images/maiden_mfit_990.jpg" style="width: 150px; height: 80px" />
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Metallica">
+                    <div>1980s Metallica</div>
+                    <div>
+                        <img src="~/Content/img/Metal images/hqdefault.jpg" style="width: 150px; height: 80px" />
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Pantera">
+                    <div>1990s Pantera</div>
+                    <div>
+                        <img src="~/Content/img/Metal images/1212292-ferreira-mariane-hd-pantera-picture.jpg" style="width: 150px; height: 80px" />
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Disturbed_(band)">
+                    <div>2000s Disturbed</div>
+                    <div>
+                        <img src="~/Content/img/Metal images/flatbush-facebook-opengraph-d2c.jpg" style="width: 150px; height: 80px" />
+                    </div>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="music">
+        <audio controls="controls" autoplay="true" loop="true">
+            <source src="~/Content/background-music/03.%20Metallica%20-%20For%20Whom%20the%20Bell%20Tolls.mp3" type="audio/mpeg" />
+        </audio>
+        <p>Metallica-For Whom The Bell Tolls</p>
+    </div>
+
+    <div>
+        <h1>Qiestions</h1>
+
+        @{
+            ApplicationDbContext db = new ApplicationDbContext();
+
+        }
+
+        <table class="table">
+            <tr>
+                <th style="color: yellow">
+                    Title
+                </th>
+                <th style="color: yellow">
+                    Question
+                </th>
+                <th style="color: yellow">
+                    Date
+                </th>
+                <th style="color: yellow">
+                    Author
+                </th>
+                <th style="color: yellow">
+                    Category
+                </th>
+                <th style="color: yellow">
+                    Details
+                </th>
+
+            </tr>
+
+            @foreach (var item in db.Questions.Where(s => s.Category.ToLower() == "metal").Include(p => p.Author))
+            {
+                <tr>
+                    <td style="color: yellow">
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td style="color: yellow">
+                        @Utils.CutText(item.Body)
+                    </td>
+                    <td style="color: yellow">
+                        @Html.DisplayFor(modelItem => item.Date)
+                    </td>
+                    <td style="color: yellow">
+                        @if (item.Author != null)
+                        {
+                            @item.Author.FullName
+                        }
+                        else
+                        {
+                            <i>(No Author)</i>
+                        }
+                    </td>
+                    <td style="color: yellow">
+                        @Html.DisplayFor(modelItem => item.Category)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Details", "Details", new { id = item.Id })
+                    </td>
+                </tr>
+            }
+
+        </table>
+
+    </div>
+
+</div>

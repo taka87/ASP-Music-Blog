@@ -1,0 +1,48 @@
+﻿.RockMetal {
+    background-color: black;
+    margin: 15px;
+    color: white;
+    display: inline-block;
+    width: 45%;
+    height: 600px;
+}
+
+    .RockMetal img {
+        width: 100%;
+        height: 600px;
+    }
+
+
+.wrapper {
+    text-align: center;
+    width: 100%;
+    border-radius: 20px;
+}
+
+body {
+    color: #cccc00;
+    background-image: url('img/choose-styel-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.type {
+    background-color: rgba( 0, 0, 153, 0.5);
+    color: #00ffff;
+    font-size: 80px;
+    visibility: hidden;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 600px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+a:hover .type {
+    visibility: visible;
+}
+
+ul li a {
+    font-family: Copperplate,Copperplate Gothic Light, sans-serif;
+}

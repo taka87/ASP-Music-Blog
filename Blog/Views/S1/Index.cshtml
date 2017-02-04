@@ -1,0 +1,107 @@
+﻿@model IEnumerable<Blog.Models.S1>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<style>
+    body {
+        background-image: url('../../Content/srybsko/background/Mile_Kitic_2001_Prednja.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: aqua;
+    }
+</style>
+<audio controls="controls"autoplay="true">
+    <source src="~/Content/srybsko/music/Mile%20Kitic%20-%20Smejem%20se%20a%20place%20mi%20se%20-%20(Audio%202000)-1-02.mp3" type="audio/mpeg" />
+</audio>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Body)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Body)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>
+<div class="about">
+
+    <h1>History of Serbian pop-folk music</h1>
+
+    <p>
+        Serbia has a variety of traditional music, which is part of the wider Balkan tradition,
+        with its own distinctive sound and features.
+        pop-folk
+        In 2000 turbo-folk sound becomes more pop elements, abandoning the traditional influences of ethnic or oriental motifs of folk music.
+        New music and its performers were labeled as pop-folk (contractors).
+        Mile Kitić
+        Born on January 1, 1952
+        Serbian pop-folk singer popular in the former Yugoslavia from his musical career in Sarajevo.
+        During the war in Bosnia, he fled to Sarbiya.Zhenen for Serbian singer Marta Savic.
+        Svetlana Raznatovic (Ceca)
+        born June 14, 1973
+        It is a Serbian turbo-folk singer, one of the most popular singers in Serbia and the Balkans.
+        She began her career as a folk singer in 1988. As a
+        the highest paid artists in the Serbian music industry.
+        Indira Radic
+        born June 14, 1966
+        It is a Serbian pop-folk singer. Born in Bosnia, she went to Belgrade, Serbia
+        during the wars in former Yugoslavia and the release of its first album.
+        It is established in the Balkan music scene. It is called "Serbian Shakira."
+    </p>
+</div>
+
+<form action="https://diskografija.wordpress.com/m/mile-kitic/">
+    <input type="submit" value="Mile Kitić " />
+</form>
+
+<form action="https://diskografija.wordpress.com/s/saban-saulic/">
+    <input type="submit" value="Saban Saulic" />
+
+</form>
+
+<form action="http://wwwsvetlanacecaraznatovic.blogspot.bg/p/diskografija.html">
+    <input type="submit" value="CECA" />
+
+</form>
+
+<form action="https://diskografija.wordpress.com/i/indira-radic/">
+    <input type="submit" value="Indira Radic" />
+
+</form>
+
+<form action="https://www.discogs.com/artist/915299-Lepa-Brena">
+    <input type="submit" value="Fahreta Jahic" />
+
+</form>

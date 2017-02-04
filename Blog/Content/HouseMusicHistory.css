@@ -1,0 +1,49 @@
+﻿body {
+    background-color: black;
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+.button {
+    tab-size: 30px;
+}
+
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(115, 230, 0);
+    margin: 10px;
+    padding: 20px;
+}
+
+.title {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: rgb(230, 230, 0);
+}
+
+.music {
+    text-align: center;
+    margin: 20px;
+}
+
+.bands h2 {
+    color: greenyellow;
+    text-align: center;
+}
+
+
+.bands li {
+    display:inline-table;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.final {
+    text-align: center;
+    text-decoration: none;
+}
+
+

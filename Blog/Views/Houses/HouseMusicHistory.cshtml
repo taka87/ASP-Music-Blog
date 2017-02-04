@@ -1,0 +1,120 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using System.Runtime
+@using Microsoft.Ajax.Utilities
+@model List<Blog.Models.House>
+<link href="~/Content/HouseMusicHistory.css" rel="stylesheet" />
+<div class="wrapper">
+
+    <div class="title">
+
+        <h1>The History of House</h1>
+        <p>
+            <br />
+            <br />
+            It's been ten years since the first identifiably house tracks were put on to vinyl,
+            ten years which have changed the technology behind the electronic music revolution
+            beyond recognition but left the basic structure of house intact. It's seven years
+            since it was being said house couldn't last, that it was just hi-NRG, a fast blast
+            that would wither as quickly as it had started. But then the music reinvented itself,
+            and then again and again until it gradually dawned on people that house wasn't just
+            another phase of club culture, it was club culture, the continuing future of dance music.
+            The reason? It's simple. People like to dance to house.
+        </p>
+    </div>
+
+
+
+
+
+    <div class="bands">
+        <h2>
+            <br /><br /><br />
+            Most Polpular DJ's
+            <br /><br />
+        </h2>
+
+    </div>
+
+    <ul>
+
+        <div class="bands">
+            <li>
+                <a href="http://www.carlcox.com/biography/index.html">
+                    <div>Carl Cox</div>
+                    <div>
+                        <img src="~/Content/HouseMusic/DJ/CarlCox.jpg" style="width: 460px; height: 290px" />
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="http://www.arminvanbuuren.com/biography/">
+                    <div>Armin van Buuren</div>
+                    <div>
+                        <img src="~/Content/HouseMusic/DJ/Armin.jpg" style="width: 460px; height: 290px" />
+                    </div>
+                </a>
+            </li>
+
+        </div>
+
+        <div class="bands">
+            <br/>
+            <li>
+                <a href="http://www.djmarkknight.com/">
+                    <div>Mark Knight</div>
+                    <div>
+                        <img src="~/Content/HouseMusic/DJ/MarkKnight.jpg" style="width: 460px; height: 290px"/>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="http://www.paulvandyk.com/">
+                    <div>Paul van Dyk</div>
+                    <div>
+                        <img src="~/Content/HouseMusic/DJ/Paul Van dyk.jpg" style="width: 460px; height: 290px"/>
+                    </div>
+                </a>
+            </li>
+
+        </div>
+
+
+        <div class="final">
+            <br/>
+            <li>
+                <a href="http://music.hyperreal.org/library/history_of_house.html">
+                    <dir>
+                        The History of House 
+                    </dir>
+                    <div>
+                        <img src="~/Content/HouseMusic/DJ/562985_10151358797579947_708732846_n.jpg" style="width: 920px; height: 480px"/>
+                    </div>
+                </a>
+            </li>
+        </div>
+
+    </ul>
+</div>
+
+<div class="button">
+    <br/>
+    @Html.ActionLink("House Music Blog", "Index", null, new {@class = "btn btn-primary btn-large"})
+
+</div>
+
+
+<div class="music">
+    <br />
+    <br />
+    <br/>
+    <audio controls="controls" loop autoplay="true">
+        <source src="~/Content/HouseMusic/HouseMusic/Headstrong%20feat.%20Stine%20Grove%20-%20Love%20until%20it%20hurts%20(Aurosonic%20radio%20mix).mp3" type="audio/mpeg"/>
+    </audio>
+</div>
+
+
+

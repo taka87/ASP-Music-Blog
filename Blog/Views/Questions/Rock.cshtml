@@ -1,0 +1,181 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using System.Data.Entity
+@using System.Runtime
+@using System.Web.UI.WebControls
+@using Blog.Classes
+@using Blog.Models
+@using Microsoft.Ajax.Utilities
+@model Blog.Models.Question
+
+<link href="~/Content/Rock.css" rel="stylesheet" />
+<div class="wrapper">
+    <ul class="miniMenu">
+        <li>
+            @Html.ActionLink("Heavy Metal Music", "Metal")
+        </li>
+
+        <li>
+            @Html.ActionLink("Ask Question", "Create")
+        </li>
+
+        <li>
+            @Html.ActionLink("Questions", "Index")
+        </li>
+
+    </ul>
+
+    <div class="about">
+
+        <h1>History of Rock Music</h1>
+
+        <p>
+            The foundations of rock music are in rock and roll,
+            which originated in the United States during the late 1940s and early 1950s,
+            and quickly spread to much of the rest of the world.
+            Its immediate origins lay in a melding of various black musical genres of the time,
+            including rhythm and blues and gospel music, with country and western.In 1951, Cleveland,
+            Ohio disc jockey Alan Freed began playing rhythm and blues music (then termed "race music")
+            for a multi-racial audience, and is credited with first using the phrase "rock and roll" to describe the music.
+            Rock and roll has been seen as leading to a number of distinct subgenres, including rockabilly,
+            combining rock and roll with "hillbilly" country music,
+            which was usually played and recorded in the mid-1950s by white singers such as Carl Perkins,
+            Jerry Lee Lewis, Buddy Holly and with the greatest commercial success, Elvis Presley.
+        </p>
+    </div>
+
+    <div class="bands">
+        <h4>Polpular bands and artists by decades and their wiki's</h4>
+        <ul>
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Elvis_Presley">
+                    <div>1950s Elvis Presley</div>
+                    <div>
+                        <img src="~/Content/img/Rock images/Elvispresley-logo.svg.png" style="width: 150px; height: 80px" />
+                    </div>
+                </a>
+
+
+            </li>
+
+            <li>
+                <a href="https://en.wikipedia.org/wiki/The_Beatles">
+                    <div>1960s The Beatles</div>
+                    <div>
+                        <img src="~/Content/img/Rock images/The-Beatles-Logo.jpg" style="width: 150px; height: 80px" />
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Aerosmith">
+                    <div>1970s Aerosmith</div>
+                    <div>
+                        <img src="~/Content/img/Rock images/aerosmith-logo.jpg" style="width: 150px; height: 80px" />
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Guns_N%27_Roses">
+                    <div>1980s Guns N Roses</div>
+                    <div>
+                        <img src="~/Content/img/Rock images/guns-n-roses-wallpaper-skull.jpg" style="width: 150px; height: 80px" />
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Nirvana_(band)">
+                    <div>1990s Nirvana</div>
+                    <div>
+                        <img src="~/Content/img/Rock images/nirvana_smiley_face_logo_meaning_kurt_cobain.jpg" style="width: 150px; height: 80px" />
+                    </div>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="music">
+        <audio controls="controls" autoplay="true" loop="true">
+            <source src="~/Content/background-music/the%20doors%20--%20break%20on%20through.mp3" type="audio/mpeg" />
+        </audio>
+        <p>The Doors-Break On Through</p>
+    </div>
+
+    <div class="tableCustom">
+        <h1>Qiestions</h1>
+
+        @{
+            ApplicationDbContext db = new ApplicationDbContext();
+        }
+
+        <script>
+            $(document).ready(function () {
+                $("button").click(function () {
+                    $("p").toggle();
+                });
+            });
+        </script>
+
+        <table class="table">
+            <tr>
+                <th style="color: cyan">
+                    Title
+                </th>
+                <th style="color: cyan">
+                    Question
+                </th>
+                <th style="color: cyan">
+                    Date
+                </th>
+                <th style="color: cyan">
+                    Author
+                </th>
+                <th style="color: cyan">
+                    Category
+                </th>
+                <th style="color: cyan">
+                    Details
+                </th>
+
+            </tr>
+
+            @foreach (var item in db.Questions.Where(s => s.Category.ToLower() == "rock").Include(p => p.Author))
+            {
+            <tr>
+                <td style="color: cyan">
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td style="color: cyan">
+                    @Utils.CutText(item.Body)
+                </td>
+                <td style="color: cyan">
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td style="color: cyan">
+                    @if (item.Author != null)
+                        {
+                        @item.Author.FullName
+                        }
+                        else
+                        {
+                        <i>(No Author)</i>
+                        }
+                </td>
+                <td style="color: cyan">
+                    @Html.DisplayFor(modelItem => item.Category)
+                </td>
+                <td>
+                    @Html.ActionLink("Details","Details",new {id = item.Id})
+                </td>
+            </tr>
+            }
+
+        </table>
+
+    </div>
+
+</div>

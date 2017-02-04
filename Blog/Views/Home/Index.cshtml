@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@using Microsoft.Ajax.Utilities
+@model List<Blog.Models.Post>
+<link href="~/Content/HomeView.css" rel="stylesheet" />
+
+<div class="wrapper">
+    <a href="@Url.Action("ChooseStyle","Questions")">
+        <div class="homeView" id="rockMetal" style="background-image: url('../../Content/img/home-view/rock_metal_HomeView.jpg');
+                                      background-size: 100% 300px ;
+                                      background-repeat: no-repeat">
+            <div class="type">Rock & Heavy Metal Music all the way </div>
+        </div>
+    </a>
+
+    <a href="@Url.Action("Index","LatinPages")">
+        <div class="homeView" id="latino" style="background-image: url('../../Content/img/home-view/latino_HomeView.jpg');
+                                      background-size: 100% 300px ;
+                                      background-repeat: no-repeat">
+            <div class="type">
+                Latin Music - The Rhythm of Passion
+            </div>
+        </div>
+    </a>
+
+    <a href="@Url.Action("Index","Russians")">
+        <div class="homeView" id="ruski" style="background-image: url('../../Content/img/home-view/ruski_pesnichki_HomeView.jpg');
+                                      background-size: 100% 300px ;
+                                      background-repeat: no-repeat">
+            <div class="type">"Руски детски песнички" - Скъпи спомени от детството</div>
+        </div>
+    </a>
+
+    <a href="@Url.Action("HouseMusic","Houses")">
+        <div class="homeView" id="house" style="background-image: url('../../Content/HouseMusic/BackgroundPicture/safetyjac.jpg');
+                                      background-size: 100% 300px ;
+                                      background-repeat: no-repeat">
+            <div class="type">House Music Page</div>
+        </div>
+    </a>
+
+    <a href="@Url.Action("Index","S1")">
+        <div class="homeView" id="srubsko" style="background-image: url('../../Content/img/home-view/srabsko_HomeView.jpg');
+                                      background-size: 100% 300px ;
+                                      background-repeat: no-repeat">
+            <div class="type">Serbian pop-folk music</div>
+        </div>
+    </a>
+</div>

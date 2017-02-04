@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Blog.Models.Post>
+    @using Blog.Classes;
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Title
+        </th>
+        <th>
+            Body
+        </th>
+        <th>
+           Date
+        </th>
+        <th>
+            Author
+        </th>
+        <th>
+            Actions
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Utils.CutText(item.Body)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @if (item.Author != null)
+            {
+                @item.Author.FullName
+            }
+            else
+            {
+               <i>(No Author)</i>
+            }
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

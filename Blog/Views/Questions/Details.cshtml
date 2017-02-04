@@ -1,0 +1,100 @@
+﻿@model Blog.Models.Question
+
+@{
+    ViewBag.Title = "Details";
+}
+<style>
+    body {
+        background-image: url('../../Content/img/details-view-background.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .dl-horizontal {
+        background-color: rgba(0,0,0,0.6);
+        color: cyan;
+        font-family: Copperplate,Copperplate Gothic Light, sans-serif;
+        font-size: 20px;
+    }
+
+    h1 {
+        color: cyan;
+    }
+
+    h3 {
+        color: cyan;
+    }
+
+    .miniMenu li {
+        display: inline-block;
+        text-decoration: none;
+        background-color: rgb(242, 242, 242);
+        border: solid grey;
+        font-size: 14px;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 2px;
+    }
+
+        .miniMenu li a {
+            text-decoration: none;
+            color: black;
+        }
+
+    ul li a {
+        font-family: Copperplate,Copperplate Gothic Light, sans-serif;
+    }
+
+    footer {
+        text-align: center;
+    }
+</style>
+<h1>Details</h1>
+
+<div>
+    <h3>Question</h3>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <br />
+        <dt>
+            @Html.DisplayNameFor(model => model.Body)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Body)
+        </dd>
+        <br />
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Category)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category)
+        </dd>
+        <br />
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <ul class="miniMenu">
+        <li>@Html.ActionLink("Create New", "Create")</li>
+        <li>@Html.ActionLink("Rock Music", "Rock")</li>
+        <li>@Html.ActionLink("Heavy Metal Music", "Metal")</li>
+        <li>@Html.ActionLink("Questions", "Index")</li>
+    </ul>
+</p>

@@ -1,0 +1,53 @@
+﻿@model Blog.Models.LatinPage
+
+@{
+    ViewBag.Title = "Details";
+}
+<link href="~/Content/latin-styles.css" rel="stylesheet" />
+
+<h2 style="text-align:center" class="title">Details</h2>
+
+<body style="background-color: indianred">
+
+    <a href="@Url.Action("Index", "LatinPages")" style="font-family: Arial, Helvetica, sans-serif; color: black">
+        << Back to main page
+    </a>
+    <br />
+
+    <div class="table-style">
+        <div>
+            <h4>Latin Music</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Title)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Title)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Body)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Body)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Date)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Date)
+                </dd>
+
+            </dl>
+        </div>
+        <p>
+            @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = Model.Id })
+        </p>
+    </div>
+</body>

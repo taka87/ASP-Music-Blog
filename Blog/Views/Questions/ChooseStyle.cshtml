@@ -1,0 +1,39 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    ViewBag.Title = "Choose Music Style";
+}
+
+@model List<Blog.Models.Question>
+<link href="~/Content/RockMetalIndex.css" rel="stylesheet" />
+
+
+<h2><center><i>Choose Music Style</i></center></h2>
+<center>
+    <div class="wrapper">
+
+        <a href="@Url.Action("Metal","Questions")">
+            <div class="RockMetal" style="background-image: url('../../Content/img/metal-button-href.jpg');
+                                          background-size: contain;
+                                          background-repeat: no-repeat">
+                <div class="type">Heavy Metal</div>
+            </div>
+        </a>
+
+        <a href="@Url.Action("Rock", "Questions")">
+            <div class="RockMetal" style="background-image: url('../../Content/img/rock-button-href.jpg');
+                                                                                                               background-size: contain;
+                                                                                                               background-repeat: no-repeat">
+                <div class="type">Rock</div>
+            </div>
+        </a>
+
+        <audio controls="controls" autoplay="true">
+            <source src="~/Content/background-music/BEASTWARS%20-%20REALMS.mp3" type="audio/mpeg"/>
+        </audio>
+        <p>Beastwars-Realms</p>
+
+    </div>
+</center>
+

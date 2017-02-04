@@ -1,0 +1,63 @@
+﻿body {
+    background-color: black;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.homeView {
+    width: 100%;
+    min-height: 300px;
+}
+
+.type {
+    background-color: rgba( 0, 0, 153, 0.5);
+    visibility: hidden;
+    min-height: 300px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#latino {
+    font-size: 37px;
+    font-family: Gill Sans, Gill Sans MT, sans-serif;
+    color: yellow;
+    line-height: 250px;
+}
+
+#rockMetal {
+    font-size: 50px;
+    line-height: 250px;
+    font-family: Copperplate,Copperplate Gothic Light, sans-serif;
+    color: rgb(102, 255, 255);
+}
+
+#ruski {
+    font-size: 35px;
+    line-height: 250px;
+    font-family: Verdana, Geneva, sans-serif;
+    color: rgb(102, 255, 255);
+}
+
+#srubsko {
+    font-size: 60px;
+    line-height: 250px;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: darkgrey;
+}
+
+#house {
+    font-size: 37px;
+    font-family: Impact, Charcoal, sans-serif;
+    color: yellow;
+    line-height: 350px;
+}
+
+.wrapper a {
+    text-decoration: none;
+}
+
+a:hover .type {
+    visibility: visible;
+}

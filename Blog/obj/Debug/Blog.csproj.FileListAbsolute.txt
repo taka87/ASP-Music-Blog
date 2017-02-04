@@ -1,0 +1,245 @@
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\ApplicationInsights.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\roslyn\csc.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\roslyn\vbc.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Blog.dll.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Blog.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Blog.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Antlr3.Runtime.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\EntityFramework.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.AI.Web.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.ApplicationInsights.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.Owin.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.Owin.Security.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Newtonsoft.Json.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Owin.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\System.Web.Helpers.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\System.Web.Mvc.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\System.Web.Optimization.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\System.Web.Razor.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\System.Web.WebPages.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\WebGrease.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.AI.Web.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.ApplicationInsights.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\System.Web.Helpers.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\System.Web.Mvc.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\System.Web.Optimization.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\System.Web.Razor.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\System.Web.WebPages.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Antlr3.Runtime.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Newtonsoft.Json.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\EntityFramework.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.Owin.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.Owin.Security.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\obj\Debug\Blog.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\obj\Debug\Blog.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\Blog\Blog\obj\Debug\Blog.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\ApplicationInsights.config
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\roslyn\csc.exe
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\roslyn\vbc.exe
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Blog.dll.config
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Blog.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Blog.pdb
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Antlr3.Runtime.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\EntityFramework.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.AI.Web.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.ApplicationInsights.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.Owin.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.Owin.Security.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Newtonsoft.Json.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Owin.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\System.Web.Helpers.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\System.Web.Mvc.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\System.Web.Optimization.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\System.Web.Razor.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\System.Web.WebPages.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\WebGrease.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.AI.Web.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.ApplicationInsights.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\System.Web.Helpers.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\System.Web.Mvc.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\System.Web.Optimization.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\System.Web.Razor.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\System.Web.WebPages.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Antlr3.Runtime.pdb
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Newtonsoft.Json.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\EntityFramework.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.Owin.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.Owin.Security.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\obj\Debug\Blog.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\obj\Debug\Blog.dll
+C:\Users\User\Documents\GitHub\ASP-NET-STARWARS_Build2\Blog\obj\Debug\Blog.pdb
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\ApplicationInsights.config
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\roslyn\csc.exe
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\roslyn\vbc.exe
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\roslyn\VBCSCompiler.exe
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Blog.dll.config
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Blog.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Blog.pdb
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Antlr3.Runtime.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\EntityFramework.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\EntityFramework.SqlServer.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.AI.Web.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.Owin.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.Owin.Security.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Newtonsoft.Json.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Owin.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\System.Web.Helpers.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\System.Web.Mvc.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\System.Web.Optimization.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\System.Web.Razor.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\System.Web.WebPages.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\System.Web.WebPages.Razor.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\WebGrease.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.AI.Web.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\System.Web.Helpers.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\System.Web.Mvc.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\System.Web.Optimization.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\System.Web.Razor.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\System.Web.WebPages.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\System.Web.WebPages.Razor.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Antlr3.Runtime.pdb
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Newtonsoft.Json.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\EntityFramework.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\EntityFramework.SqlServer.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.Owin.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.Owin.Security.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\obj\Debug\Blog.dll
+C:\Users\Pilence\Documents\GitHub\Final Project\ASP-NET-STARWARS_Build2-master\Blog\obj\Debug\Blog.pdb
